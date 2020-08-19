@@ -1,0 +1,30 @@
+procedure LISTAR_CLIENTE;
+
+begin
+	for i:= 1 to 10 do
+		begin
+				if(matriz_c[i,1].codigo>0) then
+				begin
+						writeln('/-----------------DADOS DO CLIENTE------------------\');
+						writeln('/                                                   \');
+				    writeln('/Código:                      \', matriz_c[i,1].codigo);
+				    writeln('/Nome:                        \', matriz_c[i,2].codigo);
+						writeln('/Idade:                       \', matriz_c[i,3].codigo);
+						writeln('/Telefone                     \', matriz_c[i,4].codigo);
+						writeln('/E-mail                       \', matriz_c[i,5].codigo);
+						writeln('/CPF                          \', matriz_c[i,6].codigo);
+						writeln('/Sexo                         \', matriz_c[i,7].codigo);
+						writeln('/                                                   \');
+						writeln('/_____________OBRIGADO PELA PREFERÊNCIA_____________\');                                             						 
+				end;
+		end;		
+end;
+
+
+
+
+' cpf: ',matriz_c[i,6].cpf 
+'Sexo: ',matriz_c[i,7].sexo
+
+
+
